@@ -14,21 +14,50 @@ title: Messaging in the mesh
   ]"
 />
 
-In this session, we'll leverage a local mesh network to quickly send messages between devices. We'll get a LED to turn on/off when the button on a differetn device is pushed. If you get stuck at any point in the process, you can see the code for the completed lab [here](http://about:blank).
+In this session, we'll leverage a local mesh network to quickly send messages between devices. We'll get a LED to turn on/off when the button on a different device is pushed. If you get stuck at any point in the process, you can see the code for the completed lab [here](http://about:blank).
 
-### Partner up with your neighbour
-From now on and the rest of the workshop, it is necessary to cooperate in groups of at least two participants.
-
-The code you'll write in this lab will live on your Argon. Each group-members should do their own code for their own device, even though it is the same code for all devices at this point.
-
+### Work in groups
+From now on and the rest of the workshop, it is necessary to cooperate in groups of 2-3 participants. Each group will get a Xenon, and from this point on in the workshop, the group will now work with one Argon and one Xenon.
 
 ::: tip Do yo come prepared?
 It is assumed that you come to this session with an Argon that you are able to program.
 :::
 
 ## Setting up the mesh network
+In order to set up a mesh network, you need one device with internet connection, acting as a gateway. This device will create a mesh network, other devices (currently only Xenons) can join. These devices will be the *nodes* of the mesh network. This part will guide you trhough setting up an Argon as a gateway, and a Xenon as a node.
 
->TODO
+This video walks you through it. You may follow along the 12 steps hereunder along with it, as the video has no sound.
+
+<video width="560" height="300" controls>
+  <source src="./images/01/set-up-argon-and-xenon-in-mesh.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video> 
+
+1. From the Particle app, add the Argon as a new device, even if it has already been added. This will not override your code on the device. Follow the steps from the previous lab, but select the option to use the Argon in a mesh network.
+
+2. Follow the guide to add WiFi to your Argon.
+
+3. After the Argon has connected to the Device Cloud, name your Argon.
+
+4. Give your new mesh network a name (max 16 characters) and a password.
+
+5. After the mesh network is successfully created, you may exit the setup guide, and set up the Xenon.
+
+6. Add the Xenon in much the same fashion you added the Argon: Start from the "Your devices" and click on the "+" sign.
+
+7. Hold the `Mode` button for 3 seconds to put the Xenon into listening mode.
+
+8. Scan the sticker. The Xenon will now pair with your phone.
+
+9. After successful pairing, the Xenon will scan for local mesh-networks. Chose the network you set up with the Argon before.
+
+10. To connect a new device to the mesh network, you physical access to a device already on the mesh network. This device will act as a commisioner, allowing your new device to join. Put the Argon (already on the mesh network) in listening mode (blinking blue) by holding the `MODE` button down for 3 seconds. Then scan its sticker.
+
+11. Once you have successfully paired with the Argon, enter the mesh network password you created earlier.
+
+12. After your Xenon have successfully joined the mesh network, you may give it a name, and exit the setup guide.
+
+You now have a functioning 
 
 ## Sending & Receiving messages
 
