@@ -1,7 +1,7 @@
 # About This Workshop
 This workshop is sponsored by [Particle Industries](https:www.particle.io) and produced in cooperation with [Reflektor Consult](https://reflektor.dk). 
 
-The workshop is a combination of a [presentations](https://docs.google.com/presentation/d/1ncoCRFaThkONZ8KvZKd5rBYi3dfptHsvo9mBVze_Pek) and the 4 hands-on sessions described in this guide.
+The workshop is a combination of an oral presentations and the 4 hands-on sessions described in this guide.
 
 This workshop will take you through the basics of connecting a Particle Argon mesh device to the internet, and have it do amazing stuff. All in just 2 hours.
 
@@ -25,4 +25,4 @@ The scheduled program of the workshop includes both presentations and **hands-on
 This site contains in-depth lab documents that complement in-person presentations delivered by [Reflektor](https://www.reflektor.dk). Attendance of a workshop isn't strictly required to follow along with these labs, but they are written under the assumption that you're attending a workshop and using workshop-provided hardware to complete the exercises.
 
 ## Survey
-How did you find the workshop? After completion of the workshop we would appreciate feedback, so that we may improve the experience for future *workshoppers*. The survey consists of only 5 essential questions (<1min) and requires no personal information to be submitted. Please follow [this link](https://goo.gl/forms/jQFWiEgWw7WCjIXM2)
+How did you find the workshop? After completion of the workshop I would appreciate feedback, so that I may improve the experience for future *workshoppers*. The survey is just 5 essential questions (<1min) and requires no personal information to be submitted. Please follow [this link](https://goo.gl/forms/jQFWiEgWw7WCjIXM2) to complete it aftewards.
