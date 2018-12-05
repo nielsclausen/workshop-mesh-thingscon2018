@@ -9,14 +9,14 @@ title: Building a meshed IoT-solution
 :time="25"
 :tools="[
     'Argon',
-    'Grove starter kits for Particle mesh',
-    'A partner, also with an Argon + Grove kit'
+    'Xenon',
+    '2 Grove starter kits for Particle mesh'
     ]"
 />
 
 
 
-In this session, it will all come together. One device is measuring a distance and broadcasting the value, while another is listening for updates and displaying them on a digital display. If you get stuck at any point in the process, you can see the code for the completed lab [here](http://about:blank).
+In this session, it will all come together. One device is measuring a distance and broadcasting the value, while another is listening for updates and displaying them on a digital display. 
 
 ### Partner up with your neighbour
 Also for this session, it is necessary to cooperate in groups of at least two participants. Group members will have to implement different code depending on the role of their device. One group member should implement the *remote distance sensor* code, the other(s) should implement the *remote display* code.
@@ -26,7 +26,7 @@ It is assumed that you come to this session with an Argon and a Xenon on the sam
 :::
 
 ## Remote distance sensor
-In a [previous session](grove-kit-distance-display.md) you wrote code that read the distance from the ultrasonic distance sensor in the Grove sensor kit.
+In a [previous session](grove-kit-distance-display.md) you wrote code that read the distance from the ultrasonic distance sensor in the Grove sensor kit. Now we take those capabilities to the mesh. If you get stuck in the code, the final code for the remote distance measurer is [available here](https://go.particle.io/shared_apps/5c0718d14e3594c0cf00082f).
 
 1. In the [Particle Web IDE](https://build.particle.io), make a new app and call it "RemoteDistanceSensor" (or come up with a more creative name).
 
@@ -75,11 +75,8 @@ Mesh.publish("distance",String(range));
 
 You now have a working distance sensor publishing its readings to the network.
 
-::: tip Got stuck in the code?
-The final code for the receiver is [available here](https://go.particle.io/shared_apps/5c0718d14e3594c0cf00082f).
-:::
-
 ## Remote display
+Let's build a remote distance display. If you get stuck in the code, the final code for the remote distance measurer is [available here](https://go.particle.io/shared_apps/5c0711444e3594b2630006e0).
 
 1. Make a new app for the displaying device and call it "Remote4DigitDisplay" (feel free to freestyle the name though).
 
@@ -160,11 +157,6 @@ while (range >= 1) {
 10. Upload this code to the device connected to the distance sensor.
 
 Now, every time a distance measurement is broadcasted by the , the display is updated, hooray!!!
-
-
-::: tip Got stuck in the code?
-The final code for the receiver is [available here](https://go.particle.io/shared_apps/5c0711444e3594b2630006e0).
-:::
 
 
 This concludes the workshop :tada:

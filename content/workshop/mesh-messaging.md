@@ -9,12 +9,12 @@ title: Messaging in the mesh
 :time="20"
 :tools="[
   'Argon',
-  'Grove starter kits for Particle mesh',
-  'A partner, also with an Argon + Grove kit'
+  'Xenon',
+  '2 Grove starter kits for Particle mesh'
   ]"
 />
 
-In this session, we'll leverage a local mesh network to quickly send messages between devices. We'll get a LED to turn on/off when the button on a different device is pushed. If you get stuck at any point in the process, you can see the code for the completed lab [here](http://about:blank).
+In this session, we'll leverage a local mesh network to quickly send messages between devices. We'll get a LED to turn on/off when the button on a different device is pushed.
 
 ### Work in groups
 From now on and the rest of the workshop, it is necessary to cooperate in groups of 2-3 participants. Each group will get a Xenon, and from this point on in the workshop, the group will now work with one Argon and one Xenon.
@@ -28,10 +28,10 @@ In order to set up a mesh network, you need one device with internet connection,
 
 This video walks you through it. You may follow along the 12 steps hereunder along with it, as the video has no sound.
 
-<video width="560" height="300" controls>
-  <source src="./images/01/set-up-argon-and-xenon-in-mesh.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video> 
+
+<div align="center">
+<iframe width="250" height="400" src="https://www.youtube.com/embed/MJ3aon2953I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
+</div>
 
 1. From the Particle app, add the Argon as a new device, even if it has already been added. This will not override your code on the device. Follow the steps from the previous lab, but select the option to use the Argon in a mesh network.
 
