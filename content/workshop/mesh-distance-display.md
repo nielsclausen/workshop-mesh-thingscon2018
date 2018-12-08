@@ -164,7 +164,7 @@ This concludes the workshop :tada:
 
 ::: tip Feedback for the workshop
 
-If you fill out this [5 question survey](https://goo.gl/forms/jQFWiEgWw7WCjIXM2), we may improve this workshop to benefit future *workshoppers*, or just pad ourselves on the back for doing great. And you may **win a 3D printed case** for the Grove sensor shield (only participants at ThingsCon 2018).
+If you fill out this [5 question survey](https://goo.gl/forms/jQFWiEgWw7WCjIXM2), we may improve this workshop to benefit future *workshoppers*, or just pad ourselves on the back for doing great.
 :::
 
 
